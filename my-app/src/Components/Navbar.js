@@ -11,7 +11,7 @@ function Navbar() {
         <label htmlFor="check" className="checkbtn">
           <i className="fas fa-bars"></i>
         </label>
-        <label className="logo">NavBar</label>
+        <label className="logo">Skills</label>
         <ul>
           <li>
             <a href="#">Candidates</a>
