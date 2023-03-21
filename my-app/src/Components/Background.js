@@ -1,19 +1,18 @@
-
-import React from 'react';
+import React from "react";
 
 function MyComponent() {
   const backgroundStyle = {
     backgroundImage: `url(./bimg.png)`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    height: '100vh'
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "100vh",
+    position: "relative",
   };
 
   return (
-    <div style={backgroundStyle}>
-      {/* your component content */}
-    </div>
-    
+    <section className="bg">
+      <div style={backgroundStyle}></div>
+    </section>
   );
 }
 
