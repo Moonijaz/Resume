@@ -1,14 +1,14 @@
 import Navbar from "./Components/Navbar";
-//import Background from "./Components/Background";
-import SearchComponent from "./Components/Search";
 import './App.css';
+import MyComponent from "./Components/Background";
+import AnimatedSearchBox from "./Components/Search";
 
 function App() {
   return (
     <>
     <Navbar/>
-      <Background />
-      <SearchComponent />
+    <MyComponent />
+    <AnimatedSearchBox/>
     </>
   );
 }
