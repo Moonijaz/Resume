@@ -1,12 +1,20 @@
 
-import './Background.css'
+import React from 'react';
 
-function Background() {
+function MyComponent() {
+  const backgroundStyle = {
+    backgroundImage: `url(./bimg.png)`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    height: '100vh'
+  };
+
   return (
-  <>
-  <img src="./bimg.png" alt="Background image"/>
-  </>
-  )
-};
+    <div style={backgroundStyle}>
+      {/* your component content */}
+    </div>
+    
+  );
+}
 
-export default Background;
+export default MyComponent;
