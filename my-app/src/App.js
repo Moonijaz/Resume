@@ -4,6 +4,8 @@ import "./App.css";
 import MyComponent from "./Components/Background";
 //import AnimatedSearchBox from "./Components/Search";
 import SearchBar from "./Components/SearchBar";
+import Candidates from "./Components/Candidates";
+import Jobs from "./Components/Jobs";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <MyComponent />
       {/*<AnimatedSearchBox/> */}
       <SearchBar />
+      <Candidates/>
+      <Jobs/>
 
     </>
   );
