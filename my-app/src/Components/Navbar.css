@@ -11,7 +11,7 @@
 
 body {
     font-family: montserrat;
-    background: url(Background-img.jpg);
+   /* background-image: url('/Images/Back-img.jpg'); */
     height: 100vh;
     background-size: cover;
     background-position: center;
