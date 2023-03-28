@@ -11,10 +11,10 @@
 
 body {
     font-family: montserrat;
-   /* background-image: url('/Images/Back-img.jpg'); */
+   /* background-image: url('/Images/Back-img.jpg'); 
     height: 100vh;
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
 }
 
 nav {
@@ -30,11 +30,13 @@ label.logo {
     line-height: 80px;
     padding: 0 40px;
     font-weight: bold;
+    float: left
 }
 
 nav ul {
     float: right;
     margin-right: 20px;
+    float: left;
 }
 
 nav ul li {

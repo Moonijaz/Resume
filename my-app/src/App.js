@@ -14,7 +14,8 @@ function App() {
       <MyComponent />
       {/*<AnimatedSearchBox/> */}
       <SearchBar />
-      <Candidates/>
+       {/*<Candidates/> */}
+      
       <Jobs/>
 
     </>
