@@ -6,7 +6,7 @@ function Candidates() {
     <>
       <SearchBar />
       <h1>hii</h1>
-      <h2>1</h2>
+
     </>
   );
 }
