@@ -2,22 +2,24 @@
 import Navbar from "./Components/Navbar";
 import "./App.css";
 import MyComponent from "./Components/Background";
-//import AnimatedSearchBox from "./Components/Search";
 import SearchBar from "./Components/SearchBar";
 import Candidates from "./Components/Candidates";
 import Jobs from "./Components/Jobs";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
-      <Navbar />
       <MyComponent />
-      {/*<AnimatedSearchBox/> */}
       <SearchBar />
-       {/*<Candidates/> */}
-      
-      <Jobs/>
-
+      <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/Candidates" component={Candidates} />
+        <Route path="/Jobs" component={Jobs} />
+      </Switch>
+    </Router>
     </>
   );
 }
