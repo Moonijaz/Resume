@@ -3,6 +3,7 @@ import React from "react";
 function MyComponent() {
   const backgroundStyle = {
     backgroundImage: `url(./bimg.png)`,
+    
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "100vh",
